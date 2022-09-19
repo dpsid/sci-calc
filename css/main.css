@@ -46,6 +46,27 @@ body {
     height: 195px;
     background-image: url(../img/display.png);
     background-size: 100%;
+    position: relative;
+}
+
+.container .display ul {
+    position: absolute;
+    top: 140px;
+    left: 290px;
+}
+
+.container .display ul li {
+    display: inline-block;
+}
+
+.container .display ul::after {
+    content: "";
+    position: absolute;
+    width: 578px;
+    height: 1px;
+    background-color: var(--clr-light-gray);
+    top: 100%;
+    left: -200%;
 }
 
 .container .pad {
