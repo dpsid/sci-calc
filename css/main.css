@@ -91,6 +91,7 @@ body {
     align-items: center;
 }
 
+
 .container .pad .k_no ul ~ .btn_kb_no:nth-child(-n+4) {
     border-top: 0px;
 }
@@ -100,6 +101,11 @@ body {
 .container .pad .k_no ul ~ .btn_kb_no:nth-child(10),
 .container .pad .k_no ul ~ .btn_kb_no:nth-child(13) {
     border-right: 0px;
+}
+
+.container .pad .k_no ul ~ .btn_kb_no:hover {
+    background-color: hsl(0, 0%, 20%);
+    transition: ease 250ms;
 }
 
 .container .pad .kb_opn {
@@ -118,6 +124,12 @@ body {
     padding-top: 12px;
     cursor: pointer;
     opacity: 0.8;
+}
+
+.container .pad .kb_opn ul .btn_kb_opn:hover {
+    background-color: hsl(0, 15%, 25%);
+    transition: ease 250ms;
+    border-radius: 2px;
 }
 
 .container .pad .kb_reason {
@@ -144,4 +156,6 @@ body {
 .container .pad .kb_reason .btn_kb_reason:nth-child(7n+7) {
     border-right: 0;
 }
+
+
 
